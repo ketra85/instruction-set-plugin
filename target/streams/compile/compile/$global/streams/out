@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/ketra/Documents/arm_project/instruction-set-plugin/src/main/scala/PluginManager.scala:36:167: the result type of an implicit conversion must be more specific than Object[0m
+[0m[[0m[31merror[0m] [0m[0m        val plugin = Class.forName(pluginString.name).getDeclaredConstructor(classOf[String], classOf[Boolean], classOf[Boolean]).newInstance(pluginString.name, false: scala.Boolean, false: scala.Boolean).asInstanceOf[Instruction][0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ketra/Documents/arm_project/instruction-set-plugin/src/main/scala/PluginManager.scala:36:189: the result type of an implicit conversion must be more specific than Object[0m
+[0m[[0m[31merror[0m] [0m[0m        val plugin = Class.forName(pluginString.name).getDeclaredConstructor(classOf[String], classOf[Boolean], classOf[Boolean]).newInstance(pluginString.name, false: scala.Boolean, false: scala.Boolean).asInstanceOf[Instruction][0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
